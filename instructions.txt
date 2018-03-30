@@ -1,0 +1,6 @@
+First run mergeMany to create many PC/SS files.
+
+
+
+
+Then you can run collect to put subsets of them into 
