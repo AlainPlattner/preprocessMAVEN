@@ -1,5 +1,5 @@
 function subfilter_night()
-% Retain only those points that have sunstate x axis smaller than -sqrt(r-rMars)
+% Retain only those points that have sunstate x axis smaller than -sqrt(r^2-rMars^2)
 
 onesec=1;
   

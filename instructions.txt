@@ -1,6 +1,20 @@
-First run mergeMany to create many PC/SS files.
+First run mergeMany.m to create many PC/SS files.
+
+Then you can run collect.m to put everything into one file, for example: 
+collect('/mnt/MarsDrive/MavenData/onesec/merged/maxrad_3690/','/mnt/MarsDrive/MavenData/onesec/merged/maxrad_3690.mat')
+
+Then you can get subsets, as for example
 
 
-
-
-Then you can run collect to put subsets of them into 
+% datamatrix:
+% column 1: Planetocentric radial distance from center of planet (r) [km] 
+% column 2: Planetocentric colatitudinal position (\theta) [radians]
+% column 3: Planetocentric longitudinal position (\phi) [radians]
+% column 4: Planetocentric radial magnetic field component (B_r) [nT]
+% column 5: Planetocentric colatitudinal magnetic field component (B_\theta) [nT]
+% column 6: Planetocentric longitudinal magnetic field component (B_\phi) [nT]
+% column 7: Sun state X coordinate [km]
+% column 8: Sun state Y coordinate [km]
+% column 9: Sun state Z coordinate [km]
+% column 10: year
+% column 11: decimal day
