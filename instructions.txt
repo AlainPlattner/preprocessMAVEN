@@ -3,7 +3,7 @@ First run mergeMany.m to create many PC/SS files.
 Then you can run collect.m to put everything into one file, for example: 
 collect('/mnt/MarsDrive/MavenData/onesec/merged/maxrad_3690/','/mnt/MarsDrive/MavenData/onesec/merged/maxrad_3690.mat')
 
-Then you can get subsets, as for example
+Then you can get subsets, as for example using subfilter_night.m
 
 
 % datamatrix:
